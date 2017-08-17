@@ -1,3 +1,12 @@
+.pull-left {
+    text-align: left !important;
+}
+
+.pull-right {
+    text-align: right !important;
+}
+
+
 /*************************************/
 
 
@@ -109,7 +118,6 @@ a.nav-link:hover {
 .header-content>h0 {
     font-size: 70px;
     font-weight: 600;
-    /* position: absolute; */
 }
 
 @media (max-width: 970px) {
@@ -262,18 +270,124 @@ a.nav-link:hover {
     padding-bottom: 3em;
 }
 
-.footer-brand {
+.categories {
+    color: black;
+    padding-top: 5em;
+}
+
+.browser {
+    padding-bottom: 2em;
+}
+
+.image-big.left {
+    padding-right: 1.5em;
+}
+
+.image-big.right {
+    padding-left: 1.5em;
+}
+
+.image-small.left {
+    padding-right: 1.5em;
+}
+
+.image-big.right {
+    padding-left: 1.5em;
+}
+
+.categories>div.row>div>img {
+    height: 300px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.row.next {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.footer-brand>h1 {
+    font-size: 1.5em !important;
+    font-weight: 700 !important;
+    padding-top: 0.3em;
+    padding-left: 1em;
+}
+
+.footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px;
+    /* Vertically center the text there */
+    background-color: #FF0003;
+    color: white;
+}
+
+.footer>a {
+    padding-right: 15px;
+    padding-left: 15px;
+    color: white;
+}
+
+a.footer-brand {
+    color: #FFFFFF !important;
     font-size: 2em !important;
     font-weight: 700 !important;
 }
 
-.footer {
-    bottom: 0 !important;
-    width: 100% !important;
-    height: 60px !important;
-    line-height: 60px !important;
-    /* Vertically center the text there */
-    background-color: #FF0003 !important;
-    color: white;
-    padding: 0 15px !important;
+.category-left-big {
+    position: absolute !important;
+    color: white !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    font-size: 5rem !important;
+    padding-left: 20rem !important;
+    padding-right: 20rem !important;
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
+    height: 300px !important;
+    /* background-color: rgba(0, 0, 0, 0.24); */
+}
+
+.category-right-small {
+    position: absolute !important;
+    color: white !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    font-size: 5rem !important;
+    padding-left: 63rem !important;
+    padding-right: 10rem !important;
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
+    height: 300px !important;
+    /* background-color: rgba(0, 0, 0, 0.24); */
+}
+
+.category-right-big {
+    position: absolute !important;
+    color: white !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    font-size: 5rem !important;
+    padding-left: 52rem !important;
+    padding-right: 12rem !important;
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
+    height: 300px !important;
+    /* background-color: rgba(0, 0, 0, 0.24); */
+}
+
+.category-left-small {
+    position: absolute !important;
+    color: white !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    font-size: 5rem !important;
+    padding-left: 15rem !important;
+    padding-right: 20rem !important;
+    padding-top: 8rem !important;
+    height: 300px !important;
+    /* background-color: rgba(0, 0, 0, 0.24); */
 }
