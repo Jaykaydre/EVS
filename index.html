@@ -27,6 +27,7 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="#">BROWSE EVENTS <span class="sr-only">(current)</span></a>
                 </li>
+                <li class="nav-divide"></li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">LEARN MORE</a>
                 </li>
@@ -42,44 +43,69 @@
         <div class="text-center header-content">
 
             <h0> FIND YOUR NEXT EXPERIENCE </h0>
-            <div class="container event-grid">
-                <div class="container">
-                    <div class="row">
-                        <div class="card col-4">
-                            <img src="images/test.jpg" alt="Card image cap" class="embed-responsive">
-                            <h3 class="card-title">This is the card title.</h3>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="container  search-form-bg">
+                <form class="search-form form-row">
+                    <label for="inputEvent" class="sr-only">Search events or categories</label>
+                    <input type="text" id="inputEvent" class="mx-2 form-item form-control" placeholder="Search events or categories" required>
+                    <label for="inputLocation" class="sr-only">Location</label>
+                    <input type="text" id="inputLocation" class="mx-2 form-control" placeholder="Location" required>
+                    <label for="inputLocation" class="sr-only">Date</label>
+                    <input type="text" id="inputDate" class="mx-2 form-control" placeholder="Date" required>
 
-                        </div>
-                        <div class="card col-4">
-                            <img src="images/test.jpg" alt="Card image cap" class="embed-responsive">
-                            <h3 class="card-title">This is the card title.</h3>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                        <div class="card col-4">
-                            <img src="images/test.jpg" alt="Card image cap" class="embed-responsive">
-                            <h3 class="card-title">This is the card title.</h3>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <span class="search-button">
+                    <button class="btn btn-danger btn-search" type="submit">SEARCH</button>
+                    </span>
+                </form>
+            </div>
+            <div class="container eventgrid">
+
+
+                <div class="event-grid">
+                    <div class="container text-center">
+                        <form class="form-row popularForm">
+
+                            <label for="inputLocation" class="popular">Popular Events in: </label>
+                            <input type="text" id="inputLocation" class="searchLocation col-md-4 mx-2 form-control" placeholder="Enter city or Location" required>
+                        </form>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="card col-4">
+                                <img src="images/test.jpg" alt="Card image cap" class="embed-responsive">
+                                <h3 class="card-title">This is the card title.</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                            </div>
+                            <div class="card col-4">
+                                <img src="images/test.jpg" alt="Card image cap" class="embed-responsive">
+                                <h3 class="card-title">This is the card title.</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card col-4">
+                                <img src="images/test.jpg" alt="Card image cap" class="embed-responsive">
+                                <h3 class="card-title">This is the card title.</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="container">
-                    <div class="row">
+                    <div class="container">
+                        <div class="row">
 
-                        <div class="card col-md-4">
-                            <img src="images/test.jpg" alt="Card image cap" class="card-img-top">
-                            <h3 class="card-title">This is the card title.</h3>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                        <div class="card col-md-4">
-                            <img src="images/test.jpg" alt="Card image cap" class="embed-responsive">
-                            <h3 class="card-title">This is the card title.</h3>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                        <div class="card col-md-4">
-                            <img src="images/test.jpg" alt="Card image cap" class="embed-responsive">
-                            <h3 class="card-title">This is the card title.</h3>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="card col-md-4">
+                                <img src="images/test.jpg" alt="Card image cap" class="card-img-top">
+                                <h3 class="card-title">This is the card title.</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card col-md-4">
+                                <img src="images/test.jpg" alt="Card image cap" class="embed-responsive">
+                                <h3 class="card-title">This is the card title.</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card col-md-4">
+                                <img src="images/test.jpg" alt="Card image cap" class="embed-responsive">
+                                <h3 class="card-title">This is the card title.</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -90,7 +116,6 @@
     </div>
 
     <footer class="footer">
-
         <a class="footer-brand mx-5">EVS</a>`
     </footer>
 
